@@ -1,0 +1,29 @@
+{
+  "name": "url-shorten",
+  "version": "1.0.0",
+  "description": "shorten the url and save it in redis",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/istanbul test ./node_modules/.bin/_mocha -- -R spec "
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WayneLiang/url-shorten.git"
+  },
+  "keywords": [
+    "short",
+    "url"
+  ],
+  "author": "WayneLiang (waynejwliang@gmail.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/WayneLiang/url-shorten/issues"
+  },
+  "homepage": "https://github.com/WayneLiang/url-shorten#readme",
+  "dependencies": {
+    "istanbul": "^0.4.4",
+    "mocha": "^2.5.3",
+    "redis": "^2.6.2",
+    "should": "^9.0.2"
+  }
+}
